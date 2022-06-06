@@ -1,0 +1,161 @@
+body {
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+  min-height: 100vh;
+  /* font-family: "helvetica neue"; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+}
+
+.notetitle {
+  max-width: 350px;
+  background-color: #a683e3;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.notetitle h1 {
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.add-item {
+  display: block;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* margin-top: 45px; */
+  /* margin-bottom: 50px; */
+
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: slateblue;
+  letter-spacing: 0.4px;
+  font-size: medium;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.submitbtn {
+  width: 150px;
+  background-color: rgb(165, 165, 165);
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+.submitbtn:hover {
+  background-color: #484849;
+}
+
+.showitem {
+  display: flex;
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.showitemtext {
+  font-size: 20px;
+  font-weight: normal;
+  color: #a683e3;
+  padding: 5px;
+}
+
+.showitemimg {
+  width: 20%;
+  padding: 12px;
+}
+
+.fa-trash-can {
+  color: rgb(236, 154, 124);
+  cursor: pointer;
+  margin: 0 15px 0;
+}
+
+.fa-trash-can:hover {
+  color: orangered;
+}
+
+.fa-pen-to-square {
+  color: rgb(153, 152, 152);
+  cursor: pointer;
+  margin: 0 15px 0;
+}
+
+.fa-pen-to-square:hover {
+  color: rgb(65, 65, 65);
+}
+
+.credentials {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.login {
+  display: flex;
+  width: 500px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid lightgray;
+  justify-content: center;
+  padding: 30px;
+}
+
+.login h4 {
+  text-align: center;
+}
+
+.logout {
+  background-color: rgb(165, 165, 165);
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  padding: 8px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.logout:hover {
+  background-color: #484849;
+}
